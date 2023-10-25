@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css code/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <header>
+        <div class="contantainer">
+            <img src="/IMG-20230816-WA0043.jpg" alt="slogo" class="sagarlogo">
+            <a href="#" id="logoname">NEW SAGAR MOBILE</a>
+            <div id="navbar">
+                <a href="index.html" id="logo">new sagar</a>
+                <a href="" id="home"><i class="material-icons">home</i></a>
+                <input type="search" placeholder="search here">
+                <button type="submit" id="submit"><i class="material-icons">search</i></button>
+                <a href="#" id="category"><i class="material-icons">category</i></a>
+                <a href="#" id="shop"><i class="material-icons">shop</i></a>
+                <a href="#" id="favorite"><i class="material-icons">favorite</i></a>
+                <a href="#" id="bar"><i class="material-icons">favorite</i></a>
+            </div>
+        </div>
+
+    </header>
+    <main class="mainbody" id="mbody">
+       
+    </main>
+    <footer class="footer" id="footer">
+        <img src="/WhatsApp Image 2023-08-22 at 00.15.54.jpeg" alt="flogo" class="flogo">
+        <div class="footercontent">
+            <ul>
+                <li>ADDRESS : CIVIL LINE AND NEAR BHARAT GAS AGENCY RISOD DIST WASHIM </li>
+                <li>CONTACT : "8888361817", "9850414005", "8888393997"</li>
+                <li>EMAIL : newsagarrisod@gamil.com</li>
+                <li>WHATSAPP</li>
+                <li>INSTAGRAM/FACEBOOK</li>
+            </ul>
+        </div>
+</body>
+
+</html>
+
+nav bar x code{
+     <a href="index.html" id="logo">new sagar</a>
+     <a href="" id="home"><i class="material-icons">home</i></a>
+                <input type="search" placeholder="search here">
+                <button type="submit" id="submit"><i class="material-icons">search</i></button>
+     <a href="#" id="category"><i class="material-icons">category</i></a>
+                <a href="#" id="shop"><i class="material-icons">shop</i></a>
+                <a href="#" id="favorite"><i class="material-icons">favorite</i></a>
+                <a href="#" id="bar"><i class="material-icons">menu</i></a>
+                
+                }
+
+
+
+
+
+
+
+
+
+
+
+        <ul class="brandnavbar" id="brande">
+            <a href="">
+                <li><img src="/icons and photos/front icons/samsungwithwhitebackground.jpeg" alt="samsung"
+                        class="samsung"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/my front logo/vivo.jpg" alt="vivo" class="vivo"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/my front logo/oppo.png" alt="oppo" class="oppo"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/front icons/1+.jpeg" alt="onepluse" class="onepluse"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/front icons/realme.jpeg" alt="realme" class="realme"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/front icons/mi.jpeg" alt="mi" class="mi"></li>
+            </a>
+            <a href="">
+                <li><img src="/icons and photos/front icons/othersapliances.jpeg" alt="othersapliances" class="other">
+                </li>
+            </a>
+
+        </ul>
+
+
+/** header tag**/
+        
+        <header>
+        <div class="container">
+            <img src="/logo/mainlogo.jpeg" alt="slogo" class="sagarlogo">
+            <a href="#" id="logoname" class="border">NEW SAGAR MOBILE</a>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li style="font-size: 17px; " class="sagar">
+                    <a href="#">NewSAGAR</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-house pos"></i>HOME</a>
+                </li>
+                <input type="text" placeholder="search sagar">
+                <button><i class="fa-solid fa-magnifying-glass pos"></i></button>
+                <li> <a href="#">
+                        <i class="fa-solid fa-gear pos"></i>categary
+
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">samsung</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">samsung</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">samsung</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">samsung</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">samsung</a></li>
+                            </ul>
+                        </div>
+
+                    </a>
+                </li>
+                <li> <a href="#">
+                        <i class="fa-regular fa-heart pos"></i>like
+                    </a></li>
+                <li></li><a href="#">
+                    <i class="fa-solid fa-cart-shopping pos"></i>cart
+                </a></li>
+                <li><a href="#">
+                        <i class="fa-regular fa-circle-user pos"></i>login
+                    </a></li>
+            </ul>
+        </div>
+
+    </header>
+ .menu-bar {
+     background-color: #204879;
+     text-align: center;
+ }
+
+ .menu-bar ul {
+     display: inline-flex;
+     list-style: none;
+ }
+
+ .menu-bar ul li {
+     width: 100px;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .menu-bar ul li a {
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .pos {
+     margin-right: 8px;
+ }
+
+ .menu-bar ul li:hover {
+     background-color: rgba(130, 130, 231, 0.788);
+     border-radius: 3px;
+
+ }
+
+ .sub-menu-1 {
+     display: none;
+
+ }
+
+ .menu-bar ul li:hover .sub-menu-1 {
+     display: block;
+     position: absolute;
+     background-color: #204879;
+     margin-top: 15px;
+     margin-left: -15px;
+ }
+ /* @media(max-width:1000px) {
+     .search-box button {
+         position: absolute;
+
+     }
+
+     .header2 ul {
+         position: fixed;
+         top: 205px;
+         right: -100%;
+         background: rgba(182, 115, 115, 0.781);
+         height: calc(100vh - 100px);
+         width: 50%;
+         flex-direction: column;
+         align-items: center;
+         transform: right 0.5s linear;
+     }
+
+     .header2 .menu {
+         display: block;
+         width: 100px;
+         text-align: center;
+     }
+
+     #chk1:checked~ul {
+         right: 0;
+     }
+ }
+
+ @media(max-width :600px) {
+     .header2 .logo {
+         font-size: 10px;
+         margin-left: 8px;
+     }
+
+     .header2 ul {
+         width: 100%;
+     }
+ } */

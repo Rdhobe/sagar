@@ -1,0 +1,7 @@
+SMS = Sagar Mobile Shoppe
+1. Logo / design
+3. catagary of every appliances(as per brands)
+4. offline payment
+
+
+

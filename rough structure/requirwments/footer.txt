@@ -1,0 +1,69 @@
+/*                              footer                                */
+
+ .footer {
+     border: 1px solid #1a1a1a;
+     width: 100%;
+     margin-top:100%;
+     background-color: #6E74B1;
+ }
+
+.footer p{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: larger;
+}
+
+ .footer img {
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     position: relative;
+     left: 800px;
+     bottom: 50px;
+     justify-content: 0;
+ }
+
+ .footer input {
+     position: relative;
+     bottom: 90px;
+     right: 200px;
+     height: 150px;
+     width: 500px;
+     border-radius: 10px;
+     align-items: center;
+
+ }
+
+ .footer button {
+     position: relative;
+     right: 250px;
+     bottom: 40px;
+     background-color: #cce7d0;
+     border: 0px solid transparent;
+     color: #1a1a1a;
+     height: 30px;
+     border-radius: 10px;
+ }
+
+
+
+
+        <!-- footer-section -->
+        <footer-section>
+            <footer class=" footer">
+                <div class="foter">
+                    <h4> <strong> NewSagar</strong></h4>
+                    <P><strong>Address:</strong> Civil line risod near by bharat gas agency</P>
+                    <P><strong>Contact:</strong> +918888361817, +918698504005, +918888393997</P>
+                    <P><strong>Contact_Gmail:</strong> "newsagarmobile8888@gmail.com"</P>
+                    <img src="/logo/IMG-20230816-WA0043.jpg" alt="">
+                    <input type="text">
+                    <button type="submit">submit</button>
+                </div>
+            </footer>
+        </footer-section>
