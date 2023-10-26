@@ -21,7 +21,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="import" href="table.html">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index1.css">
 
 </head>
 
@@ -105,13 +105,13 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
     <main>
         <section class="brands" id="brands">
             <ul type="none">
-                <li><a href="/product/samsung/samsung.html"> <img src="/icons and photos/my front logo/samsungwithwhitebackground.jpeg" alt=""></a>
+                <li><a href="/product/samsung/samsung.html"> <img src="samsungwithwhitebackground.jpeg" alt=""></a>
                 </li>
-                <li><a href="/product/VIVO/vivo.html"> <img src="/icons and photos/my front logo/vivo.jpg" alt=""></a></li>
-                <li><a href="/product/oppo/oppo.html"> <img src="/icons and photos/my front logo/oppo.jpg" alt=""></a></li>
-                <li><a href=""> <img src="/icons and photos/my front logo/oneplus.jpg" alt=""></a></li>
-                <li><a href=""> <img src="/icons and photos/my front logo/mi.jpg" alt=""></a></li>
-                <li><a href=""> <img src="/icons and photos/my front logo/othersapliances.jpeg" alt=""></a></li>
+                <li><a href="/product/VIVO/vivo.html"> <img src="vivo.jpg" alt=""></a></li>
+                <li><a href="/product/oppo/oppo.html"> <img src="oppo.jpg" alt=""></a></li>
+                <li><a href=""> <img src="oneplus.jpg" alt=""></a></li>
+                <li><a href=""> <img src="mi.jpg" alt=""></a></li>
+                <li><a href=""> <img src="othersapliances.jpeg" alt=""></a></li>
             </ul>
         </section>
 
@@ -125,7 +125,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
             <h1 class="pheading">OUR TOP PRODUCTS</h1>
             <div class="pro-container">
                 <div class="pro">
-                    <img src="/icons and photos/product/zip fold.jpeg" alt="s23ultra">
+                    <img src="zip fold.jpeg" alt="s23ultra">
                     <div class="des">
                         <span>samsung</span>
                         <h5>SAMSUNG Galaxy Z Fold 5 </h5>
@@ -140,7 +140,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/SAMSUNG Galaxy Z Flip 5.jpeg" alt="SAMSUNG Galaxy Z Flip 5">
+                    <img src="SAMSUNG Galaxy Z Flip 5.jpeg" alt="SAMSUNG Galaxy Z Flip 5">
                     <div class="des">
                         <span>samsung</span>
                         <h5>SAMSUNG Galaxy Z Flip 5</h5>
@@ -156,7 +156,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                 </div>
 
                 <div class="pro">
-                    <img src="/icons and photos/product/iphone.jpg" alt="iphone">
+                    <img src="iphone.jpg" alt="iphone">
                     <div class="des">
                         <span>APPPLE</span>
                         <h5>iPhone 14</h5>
@@ -171,7 +171,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/s23ultra.jpg" alt="s23ultra">
+                    <img src="s23ultra.jpg" alt="s23ultra">
                     <div class="des">
                         <span>samsung</span>
                         <h5>Samsung galaxy s23ultra</h5>
@@ -186,7 +186,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/v27.jpg" alt="V27">
+                    <img src="v27.jpg" alt="V27">
                     <div class="des">
                         <span>VIVO</span>
                         <h5>vivo V27 Pro 5G</h5>
@@ -201,7 +201,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/reno10.jpg" alt="reno10">
+                    <img src="reno10.jpg" alt="reno10">
                     <div class="des">
                         <span>OPPO</span>
                         <h5>OPPO Reno10 5G</h5>
@@ -216,7 +216,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/11r.jpg" alt="11r">
+                    <img src="11r.jpg" alt="11r">
                     <div class="des">
                         <span>ONEPLUS</span>
                         <h5>OnePlus 11 5G</h5>
@@ -231,7 +231,7 @@ if(!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] !=true){
                     </div>
                 </div>
                 <div class="pro">
-                    <img src="/icons and photos/product/a23.jpg" alt="s23ultra">
+                    <img src="a23.jpg" alt="s23ultra">
                     <div class="des">
                         <span>samsung</span>
                         <h5>Samsung galaxy s23ultra</h5>
